@@ -1,0 +1,10 @@
+com\assurance\boggle\entity\DictionaryTrie.class
+com\assurance\boggle\entity\TrieNode.class
+com\assurance\boggle\BoggleApplication.class
+com\assurance\boggle\service\BoggleService.class
+com\assurance\boggle\config\WebConfig.class
+com\assurance\boggle\controller\BoggleRestController.class
+com\assurance\boggle\entity\BoggleDto.class
+com\assurance\boggle\entity\Coordinate.class
+com\assurance\boggle\entity\BoggleLetter.class
+com\assurance\boggle\entity\Boggle.class
