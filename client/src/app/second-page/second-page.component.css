@@ -1,0 +1,14 @@
+.borders div {
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+}
+
+.borders div:first-child {
+  border-left: 1px solid #999;
+}
+
+.borders div > div {
+  border: 0;
+}
+

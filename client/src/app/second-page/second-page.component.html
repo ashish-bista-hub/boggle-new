@@ -1,0 +1,58 @@
+<br>
+<div class="parent-container d-flex">
+  <div class="container">
+    <div class="row borders" *ngFor="let tile of tiles">
+      <div class="col-md-1" *ngFor="let t of tile">
+        <button type="button" class="btn btn-success">{{t}}</button>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-1">
+        <mat-form-field class="example-full-width" *ngIf="hasTimerStarted && !hasTimerStopped">
+          <input matInput [(ngModel)]="enteredWord" placeholder="Enter word">
+        </mat-form-field>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-1">
+        <mat-card-actions *ngIf="hasTimerStopped">
+          <button mat-button [routerLink]="['/third-page', {validWords: validWords}]">View Result</button>
+        </mat-card-actions>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-1">
+        <button *ngIf="hasTimerStarted && !hasTimerStopped" type="button" (click)="onSubmit(enteredWord)"
+                class="btn btn-primary">Submit
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <p class="text-danger" *ngIf="hasTimerStarted && !hasTimerStopped && validationMsg">{{validationMsg}}</p>
+    </div>
+    <div class="row">
+      <ul class="list-group list-group-flush" *ngIf="validWords && validWords.length">
+        <li class="list-group-item" *ngFor="let word of validWords">
+          {{word}}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <button *ngIf="!hasTimerStarted" type="button" class="btn btn-primary" (click)="onTimerClick()">Start Game
+        </button>
+        <countdown *ngIf="hasTimerStarted" #cd [config]="{ leftTime: 180 }" (finished)="onFinished()">
+          $!h!:$!m!:$!s!
+        </countdown>
+      </div>
+    </div>
+    <div class="row"></div>
+    <div class="row">
+      <div class="col">
+        <p class="text-success">Clue: Possible Word Match Count = {{boggle.solutions.length}}</p>
+      </div>
+    </div>
+  </div>
+</div>

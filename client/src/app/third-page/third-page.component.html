@@ -1,0 +1,25 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>4 X 4 Board</mat-card-title>
+    <mat-card-subtitle>Score</mat-card-subtitle>
+  </mat-card-header>
+  <img class="img-thumbnail" src="assets/image/boggle.png" alt="Photo of boggle 4 x 4 board">
+  <mat-card-content>
+    <ul class="list-group" *ngIf="points && points.length">
+      <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let p of points">
+        {{p.word}}
+        <span class="badge badge-primary badge-pill">{{p.point}}</span>
+      </li>
+    </ul>
+    <p class="text-success" *ngIf="points && points.length">
+      Congratulations Your total rewarded points = {{total}}
+    </p>
+    <p class="text-danger" *ngIf="!points || !points.length">
+      Sorry!!! You have not got any rewarded points. Please try again.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button [routerLink]="['/second-page']">Play Again</button>
+  </mat-card-actions>
+</mat-card>
+
