@@ -20,7 +20,7 @@ Please note that after installation both of these should be added to the enviorn
 * To check Java is installed - execute **java -version**
 * To check Maven is installed - execute **mvn -v**
 
-If you just want to run the API without local build then
+##### If you just want to run the API without local build then
 * Open the terminal and navigate to cd api/executables
 * execute the command **java -jar boggle-0.0.1-SNAPSHOT.jar**
 * Once you see the message **"application started on Port 7080"** then
@@ -31,7 +31,7 @@ If you just want to run the API without local build then
 
 Note: This process does not require maven to be installed
 
-If you want to build the API locally then
+##### If you want to build the API locally then
 * Open the terminal and navigate to cd api
 * Then execute **mvn clean compile install** - which will download all the required dependencies and package the application into **JAR** file
 * Execute **mvn spring-boot:run** which will start the API server
