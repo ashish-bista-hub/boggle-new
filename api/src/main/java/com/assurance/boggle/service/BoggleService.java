@@ -13,8 +13,6 @@ import java.util.stream.Collectors;
 @Service
 public class BoggleService {
 
-    private static final String DICTIONARY_FILENAME = "src/main/java/com/assurance/boggle/properties/dictionary.txt";
-
     public BoggleDto getBoggle() {
         final BoggleDto boggleDto = new BoggleDto();
 
@@ -22,7 +20,7 @@ public class BoggleService {
         Collections.shuffle(Arrays.asList(matrix));
 
         try {
-            final Boggle boggle = new Boggle(4, matrix, DICTIONARY_FILENAME);
+            final Boggle boggle = new Boggle(4, matrix);
             final List<String> solution = boggle.solve();
             solution.sort((fa, s) -> Integer.compare(s.length(), fa.length()));
 

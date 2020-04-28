@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c51ae7a-467c-4f74-a5b5-f5c4b64be99f" name="Default Changelist" comment="" />
+    <list default="true" id="0c51ae7a-467c-4f74-a5b5-f5c4b64be99f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/boggle-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/boggle-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/executables/boggle-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/executables/boggle-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assurance/boggle/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assurance/boggle/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assurance/boggle/entity/Boggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assurance/boggle/entity/Boggle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assurance/boggle/entity/DictionaryTrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assurance/boggle/entity/DictionaryTrie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assurance/boggle/properties/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assurance/boggle/service/BoggleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assurance/boggle/service/BoggleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boggle-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/boggle-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/boggle-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/boggle-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/assurance/boggle/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/assurance/boggle/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/assurance/boggle/entity/Boggle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/assurance/boggle/entity/Boggle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/assurance/boggle/entity/DictionaryTrie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/assurance/boggle/entity/DictionaryTrie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/assurance/boggle/service/BoggleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/assurance/boggle/service/BoggleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.assurance.boggle.BoggleApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.assurance.boggle.BoggleApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.assurance.boggle.BoggleApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.assurance.boggle.BoggleApplicationTests.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,16 +62,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/apache-maven-3.6.3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../apache-maven-3.6.3" />
         <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -33,19 +82,26 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1ZNIn5J6zmTNMSA0JZhDYRuK0wt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular6-material-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.assurance.boggle.service" />
       <recent name="com.assurance.boggle.controller" />
@@ -53,18 +109,18 @@
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="fa" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ashis\Desktop\my-new-git\api\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ashis\Downloads\test\src\main\java\com\assurance\boggle\properties" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.assurance.boggle.entity" />
       <recent name="com.mine.test.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.runner">
+  <component name="RunManager" selected="Application.Boggle">
     <configuration name="Boggle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.assurance.boggle.entity.Boggle" />
       <module name="boggle-api" />
@@ -119,15 +175,19 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="BoggleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boggle-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.assurance.boggle.BoggleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BoggleRestControllerTest.testGetBoggleGame" />
         <item itemvalue="Application.Boggle" />
+        <item itemvalue="JUnit.BoggleRestControllerTest.testGetBoggleGame" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -139,8 +199,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584673288727</updated>
+      <workItem from="1588049190914" duration="2719000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584675276126">
@@ -175,26 +262,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="70" key="DBNavigator.ProjectSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584674480857" />
-    <state x="548" y="170" key="FileChooserDialogImpl" timestamp="1587899421990">
+    <state x="548" y="170" key="FileChooserDialogImpl" timestamp="1588049939840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587899421990" />
-    <state width="1493" height="463" key="GridCell.Tab.0.bottom" timestamp="1587972191910">
+    <state x="548" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588049939840" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588049624191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="463" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587972191910" />
-    <state width="1493" height="463" key="GridCell.Tab.0.center" timestamp="1587972191910">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588049624191" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588049624190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="463" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587972191910" />
-    <state width="1493" height="463" key="GridCell.Tab.0.left" timestamp="1587972191910">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588049624190" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588049624189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="463" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587972191910" />
-    <state width="1493" height="463" key="GridCell.Tab.0.right" timestamp="1587972191910">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588049624189" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588049624191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="463" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587972191910" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588049624191" />
     <state width="1493" height="375" key="GridCell.Tab.1.bottom" timestamp="1587899241634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

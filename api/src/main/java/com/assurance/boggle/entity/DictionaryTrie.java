@@ -1,22 +1,27 @@
 package com.assurance.boggle.entity;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 public class DictionaryTrie {
 
     private TrieNode root;
 
-    public DictionaryTrie(File dict) throws IOException {
+    public DictionaryTrie() throws IOException {
         root = new TrieNode();
-        final BufferedReader br = new BufferedReader(new FileReader(dict));
+        final InputStream in = getClass().getClassLoader().getResourceAsStream("dictionary.txt");
+        final BufferedReader br = new BufferedReader(new InputStreamReader(in));
         String line = br.readLine();
+        int i = 0;
         while (line != null) {
-            line.toLowerCase();
-            root.add(line);
+            if (i == 90000) {
+                break;
+            }
+            root.add(line.toLowerCase());
             line = br.readLine();
+            i++;
         }
     }
 

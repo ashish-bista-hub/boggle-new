@@ -1,6 +1,5 @@
 package com.assurance.boggle.entity;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
@@ -10,10 +9,10 @@ public class Boggle {
     private int dim;
     private char[][] matrix;
 
-    public Boggle(int dim, char[][] matrix, String dictFileName) throws IOException {
+    public Boggle(int dim, char[][] matrix) throws IOException {
         this.dim = dim;
         this.matrix = matrix;
-        this.dictionaryTrie = new DictionaryTrie(new File(dictFileName));
+        this.dictionaryTrie = new DictionaryTrie();
     }
 
     public Boggle(int dim, char[][] matrix, DictionaryTrie dt) {
@@ -137,12 +136,9 @@ public class Boggle {
     }
 
     public static void main(String[] args) throws IOException {
-        final String filename = "src/main/java/com/assurance/boggle/properties/dictionary.txt";
         final char[][] matrix = new char[][]{{'b', 'o', 'r', 'e'}, {'r', 't', 'a', 'n'}, {'j', 'l', 'o', 'p'}, {'n', 'a', 'v', 'y'}};
-
         Collections.shuffle(Arrays.asList(matrix));
-//        final Boggle b = new Boggle(3, new char[][]{{'a', 'r', 'm'}, {'b', 'e', 's'}, {'n', 'i', 'm'}}, filename);
-        final Boggle f = new Boggle(4, matrix, filename);
+        final Boggle f = new Boggle(4, matrix);
         System.out.println("Solving: \n\n" + f);
         List<String> solution = f.solve();
         solution.sort((fa, s) -> Integer.compare(s.length(), fa.length()));
